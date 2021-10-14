@@ -3,12 +3,17 @@
 #include "stdafx.h"
 #include <iostream>
 #include "fonctions.h"
+#include "Personne.h"
+#include <string>
 
 using namespace std;
 
 int main()
 {
-	parler();
+	Personne p1("ahmed", 25);
+	p1.parler();
+	p1.change_name("toumi");
+	p1.parler();
     return 0;
 }
 
