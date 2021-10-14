@@ -12,7 +12,7 @@ Personne::Personne(string n, int a)
 
 void Personne::parler()
 {
-	cout << " est j ai " << name << " year" << endl;
+	cout << " je suis " << name << " et j ai " << age << endl;
 }
 
 void Personne::change_name(string nom_de_remplacement)
